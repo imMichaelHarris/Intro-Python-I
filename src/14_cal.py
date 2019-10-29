@@ -25,7 +25,6 @@ from datetime import datetime
 
 print(len(sys.argv))
 now = datetime.now();
-# print(year, month)
 
 if len(sys.argv) == 1:
   print(calendar.month(now.year, now.month))
